@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Matcha Premium - Macha bar</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #f6f6f6;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #3e7a3e;
+      color: #fff;
+      padding: 24px 0;
+      text-align: center;
+    }
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+      padding: 32px;
+      display: flex;
+      gap: 32px;
+      flex-wrap: wrap;
+    }
+    .product-image {
+      flex: 1;
+      min-width: 280px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .product-image img {
+      width: 100%;
+      max-width: 320px;
+      border-radius: 16px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+    .product-details {
+      flex: 2;
+      min-width: 280px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .product-title {
+      font-size: 32px;
+      font-weight: bold;
+      margin-bottom: 12px;
+      color: #3e7a3e;
+    }
+    .product-desc {
+      font-size: 18px;
+      color: #555;
+      margin-bottom: 24px;
+    }
+    .product-price {
+      font-size: 24px;
+      font-weight: bold;
+      color: #2e5c2e;
+      margin-bottom: 24px;
+    }
+    footer {
+      text-align: center;
+      padding: 24px 0;
+      background: #eee;
+      color: #555;
+      margin-top: 40px;
+    }
+    @media (max-width: 800px) {
+      .container {
+        flex-direction: column;
+        padding: 16px;
+      }
+      .product-image, .product-details {
+        min-width: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Matcha Premium</h1>
+    <p>Teh Hijau Jepang Asli - Nikmati Kesehatan & Kenikmatan</p>
+  </header>
+  <div class="container">
+    <div class="product-image">
+      <img src=https://i.pinimg.com/1200x/92/8f/b5/928fb54ac6c56bf268e1cec33e0078d5.jpg alt="Matcha Latte">
+    </div>
+    <div class="product-details">
+      <div class="product-title">Matcha Latte Premium</div>
+      <div class="product-desc">
+        Nikmati sensasi lembut dan rasa khas Matcha Latte, dibuat dari matcha Jepang berkualitas tinggi. Cocok untuk menemani waktu santai Anda, kaya antioksidan dan menyehatkan.
+      </div>
+      <div class="product-price">Rp 50.000 / cup</div>
+    </div>
+  </div>
+  <footer>
+    &copy; 2025 Matcha Premium. Teh Hijau Jepang Asli.
+  </footer>
+</body>
+</html>
+
+
